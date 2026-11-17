@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#050e0a"><title>Fate's Passage</title><style>html,body{margin:0;width:100%;height:100%;background:#050e0a;color:#eaf7e6;font:16px Georgia,"Times New Roman",serif;display:grid;place-items:center}a{color:#ffe9a8}</style></head><body><div>Returning to Fate's Passage…</div><script>
+(function(){
+ const p=location.pathname.toLowerCase();
+ const routes={
+  '/character-creator.html':'./character-creation.html',
+  '/character-creation.html':'./character-creation.html',
+  '/fates-passage-game.html':'./fates-passage.html',
+  '/main-gameplay.html':'./fates-passage.html',
+  '/skill-melding-forge.html':'./melding-forge.html',
+  '/triune skill melding forge landscape fit.html':'./melding-forge.html',
+  '/arkaedon-map.html':'./arkaedon-map.html',
+  '/character-sheet.html':'./character-sheet.html',
+  '/spell-tome.html':'./spell-tome.html',
+  '/studio-title.html':'./character-creation.html'
+ };
+ location.replace(routes[p]||'./index.html');
+})();
+</script><noscript><a href="./index.html">Return to Fate's Passage</a></noscript></body></html>

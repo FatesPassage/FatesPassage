@@ -1,0 +1,9 @@
+{
+  "name": "Fate's Passage",
+  "short_name": "Fate's Passage",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#050e0a",
+  "theme_color": "#050e0a",
+  "orientation": "any"
+}
